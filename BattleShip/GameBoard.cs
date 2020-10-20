@@ -89,6 +89,8 @@ namespace BattleShip
             // Target Grid (Enemy ships)
             // Tracking Grid (Friendly ships)
 
+            // Char to int conversion for Grid Coordinate System
+
         // Artillery //
             // validation for coordinates
             // hit miss checker

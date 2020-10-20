@@ -9,10 +9,11 @@ namespace BattleShip
     class Program
     {   
         /// <summary>
-        ///             BATTLESHIP
-        /// The C# .NET Framework recreation of the
-        /// Classic board game beloved by some but
-        /// not every one. Maybe you'll like this one.
+        /// x----------------BATTLESHIP------------------x
+        /// | The C# .NET Framework recreation of the    |
+        /// | Classic board game beloved by some but     |    
+        /// | not every one. Maybe you'll like this one? |
+        /// x--------------------------------------------x
         /// </summary>
         /// <param name="args"></param>
         /// 
@@ -21,11 +22,12 @@ namespace BattleShip
         {
             //Instant Objects here
 
-            GameBoard gameBoard = new GameBoard();
+            GridPanelTest gridPanelTest = new GridPanelTest();
+            gridPanelTest.
 
-            // Startgame();
-            //gameBoard.StartGame();
-            // Exitgame();
+            // StartGame();
+            // gameBoard.StartGame();
+            // ExitGame();
 
         }
     }

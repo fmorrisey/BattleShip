@@ -10,28 +10,21 @@ namespace BattleShip
     /// Child class that inherits from ShipParent
     /// </summary>
     /// 
-    public class Ship : ShipYard // Rename 
+    public abstract class Ship
     {
         // Member Variables
-        public string Type;
-        public int HullSize;
-        public int HullHeatlh;
-        public char GridChar;
-
+        public string Type { get; set; }
+        public char GridChar { get; set; }
+        public int Width { get; set; }
+        public int Hits { get; set; }
+        public bool isSunk { get { return Hits >= Width; } }
+        
+            
         // Constructor
-        public Ship(string type, char gridChar, int hullSize, int hullHealth)
-        {
-            this.Type = type;
-            this.GridChar = gridChar;
-            this.HullSize = hullSize;
-            this.HullHeatlh = hullHealth;
-        }
+        
 
         // Member Methods
-        public void Test()
-        {
-            
-        }
+        
         // Method for attacking
 
         // Method for taking damage
